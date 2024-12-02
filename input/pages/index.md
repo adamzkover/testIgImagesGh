@@ -20,3 +20,5 @@ Image 2 is duplicated:
 * `input/pages/image-2.png` (copy 2)
 
 It shows up both in the IG build (copy 1) and GitHub (copy 2).
+
+Link to the page on GitHub: https://github.com/adamzkover/testIgImagesGh/blob/main/input/pages/index.md
