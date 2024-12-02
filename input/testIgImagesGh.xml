@@ -9,32 +9,27 @@
     <experimental value="true"/>
     <publisher value="testIgImagesGh"/>
     <packageId value="testIgImagesGh"/>
-    <fhirVersion value="5.0.0"/>
+    <fhirVersion value="4.0.1"/>
     <definition>
 
         <page>
-            <sourceMarkdown value="index.md"/>
-            <name value="index.html"/>
-            <title value="Introduction"/>
-            <generation value="markdown"/>
+            <nameUrl value="toc.html"/>
+            <title value="Table of Contents"/>
+            <generation value="html"/>
+            <page>
+                <nameUrl value="index.html"/>
+                <title value="Introduction"/>
+                <generation value="markdown"/>
+            </page>
         </page>
 
-        <!--
-        -->
-
         <parameter>
-            <code>
-                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-                <code value="releaselabel"/>
-            </code>
-            <value value="CI Build"/>
+            <code value="copyrightyear"/>
+            <value value="2024"/>
         </parameter>
         <parameter>
-            <code>
-                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-                <code value="copyrightyear"/>
-            </code>
-            <value value="2024+"/>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
         </parameter>
 
     </definition>
