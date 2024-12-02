@@ -24,6 +24,10 @@
         </page>
 
         <parameter>
+            <code value="path-pages"/>
+            <value value="input/pages"/>
+        </parameter>
+        <parameter>
             <code value="copyrightyear"/>
             <value value="2024"/>
         </parameter>
